@@ -1,3 +1,5 @@
+
+
 h2 {
   font-weight: lighter;
 }
@@ -17,20 +19,23 @@ p {
   color:white;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #bdd3c0;
-}
-
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    margin-bottom: 0em;
+  
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0em;
+
+  .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: red;
 }
 
- .navbar-default .navbar-nav > li > a {
-   color: #6a3d63;
-   font-size: 1em;
-    }
+  .navbar-nav > li > a {
+  color: #6a3d63;
+  font-size: 1em;
+}
+}
+
+
 .navbar-right {
   margin-right: 0;
 }
