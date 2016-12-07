@@ -1,0 +1,56 @@
+h2 {
+  font-weight: lighter;
+}
+
+h3 {
+  font-size:1.3em;
+  font-weight:lighter;
+}
+
+p {
+  fontSize:1.2em;
+  fontWeight:lighter;
+}
+
+.footer {
+  background-color:#6a3d63;
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #bdd3c0;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0em;
+}
+
+ .navbar-default .navbar-nav > li > a {
+   color: #6a3d63;
+   font-size: 1em;
+    }
+.navbar-right {
+  margin-right: 0;
+}
+
+.nav {
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+
+}
+
+.headerbox {
+  background-color:#bdd3c0;
+  height:20em;
+}
+
+
+.line {
+  background-color:#6a3d63;
+  height:1px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
