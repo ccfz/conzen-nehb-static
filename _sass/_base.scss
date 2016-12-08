@@ -1,20 +1,14 @@
+h1, h2, h3 {
+  font-weight: lighter;
+}
+
 html {
   margin-top:1em;
   margin-bottom:1em;
 }
 
-h2 {
-  font-weight: lighter;
-}
-
 h3 {
   font-size:1.3em;
-  font-weight:lighter;
-}
-
-p {
-  fontSize:1.2em;
-  fontWeight:lighter;
 }
 
 header {
@@ -74,10 +68,6 @@ header {
 .greenBox {
   background-color:#bdd3c0;
   height:20em;
-}
-
-.margin_top_one {
-  margin-top:1em;
 }
 
 .margin_top_two {
