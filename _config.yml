@@ -19,3 +19,12 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+navigation:
+  - title: Home
+    url: /
+  - title: Über mich
+    url: /ueber_mich
+  - title: Leistungen
+    url: /leistungen
+  - title: Kontakt
+    url: /kontakt

@@ -17,10 +17,13 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav navbar-right text-uppercase">
-          <li><a href="/">Home</a></li>
-          <li><a href="/ueber_mich">Über mich</a></li>
-          <li><a href="/leistungen">Leistungen</a></li>
-          <li><a href="/kontakt">Kontakt</a></li>
+          {% for nav_item in site.navigation %}
+            {% assign class = nil %}
+              {% if page.url == nav_item.url %}
+                {% assign class = 'active' %}
+              {% endif %}
+            <li><a href="{{ nav_item.url }}" class="{{ class }}">{{ nav_item.title }}</a></li>  
+          {% endfor %}
         </ul>
       </div>
     </div>
