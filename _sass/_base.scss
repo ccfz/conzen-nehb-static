@@ -40,36 +40,23 @@ header {
   border-color: transparent;
   margin-bottom: 0em;
 }
+.navbar-nav {
+  li {
 
-  .navbar-nav {
-
-    li {
-
-        a {
-          color: #6a3d63;
-          font-size: 1em;
-        }
-      
-        a:hover, a:focus {
-          color:#bdd3c0;
-          background-color:transparent
-        }
-
-        .active {
-          color:#bdd3c0;
-        }
-      }
+    a {
+      color: #6a3d63;
+      font-size: 1em;
+    }
+  
+    a:hover, a:focus {
+      color:#bdd3c0;
+      background-color:transparent
     }
 
-.navbar-right {
-  margin-right: 0;
-}
-
-.nav {
-    position: absolute; 
-    bottom: 0; 
-    right: 0;
-
+    .active {
+      color:#bdd3c0;
+    }
+  }
 }
 
 .line {

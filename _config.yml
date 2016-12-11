@@ -28,3 +28,4 @@ navigation:
     url: /leistungen
   - title: Kontakt
     url: /kontakt
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
