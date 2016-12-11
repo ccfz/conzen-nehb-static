@@ -1,2 +1,6 @@
-$font-family-base: "Calibri";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+$open-sans: 'Open Sans', sans-serif;
+$font-family-base: $open-sans;
 $text-color:#6a3d63;
+$font-size-base:12px;
