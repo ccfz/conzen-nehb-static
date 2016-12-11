@@ -1,5 +1,5 @@
 <header>
-  <h2 class="text-uppercase"><a href="/">Franziska Conzen-Nehb</a></h2>
+  <h2 class="text-uppercase"><a href="{{ site.baseurl }}/">Franziska Conzen-Nehb</a></h2>
   <div class="row">
     <div class="col-sm-5 col-sm-offset-1 text-uppercase">
       <h3>Praxis für Krankengymnastik</h3>
@@ -22,7 +22,7 @@
               {% if page.url == nav_item.url %}
                 {% assign class = 'active' %}
               {% endif %}
-            <li><a href="{{ nav_item.url }}" class="{{ class }}">{{ nav_item.title }}</a></li>  
+            <li><a href="{{ site.baseurl }}{{ nav_item.url }}" class="{{ class }}">{{ nav_item.title }}</a></li>  
           {% endfor %}
         </ul>
       </div>
