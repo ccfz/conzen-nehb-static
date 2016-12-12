@@ -1,3 +1,13 @@
+@media (min-width: 750px) {
+  .container {
+    width: 800px;
+  }
+}
+
+.container {
+    max-width: 900px;
+  }
+
 h1, h2, h3 {
   font-weight: lighter;
 }
@@ -41,6 +51,13 @@ header {
   background-color: transparent;
   border-color: transparent;
   margin-bottom: 0em;
+}
+
+@media (min-width: 992px){
+  .navbar li {
+      margin-left : .5em;
+      margin-right : .5em;
+  }
 }
 .navbar-nav {
   li {
