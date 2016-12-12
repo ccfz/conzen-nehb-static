@@ -1,6 +1,6 @@
-@include when-sm {
+@media(min-width:900px) {
   .container {
-    width: 800px;
+    width: 750px;
   }
 }
 
