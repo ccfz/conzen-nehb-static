@@ -2,6 +2,11 @@ h1, h2, h3 {
   font-weight: lighter;
 }
 
+.h2_subtitle {
+ margin-top: 0px;
+ margin-bottom: 15px;
+}
+
 html {
   margin-top:1em;
   margin-bottom:1em;
@@ -79,9 +84,13 @@ header {
 .greenBox {
   background-color:#bdd3c0;
   height:20em;
+  margin-bottom:1em;
 }
 
 .margin_top_two {
   margin-top:2em;
 }
 
+.leistung_pading {
+  padding-left:4.3%;
+}
