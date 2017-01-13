@@ -4,13 +4,27 @@
   }
 }
 
-h1, h2, h3 {
-  font-weight: lighter;
-}
+.ueber_mich_page {
+  h1 {
+  font-size:2em;
+  margin-top:0;
 
-.h2_subtitle {
- margin-top: 0px;
- margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size:1.5em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  img {
+    width:100%;
+  }
+
+  p {
+    font-size:1.3em;
+    font-weight:lighter;
+  }
 }
 
 html {
@@ -19,13 +33,31 @@ html {
 }
 
 
-h3 {
-  font-size:1.3em;
-}
-
 header {
   .line {
     margin-top:0;
+  }
+
+  #title {
+
+    margin-bottom:-0.2em;
+    font-size:1.9em;
+    font-weight:lighter;
+    
+    a {
+      color: #6a3d63;
+      text-decoration:none;
+    }
+
+    a:hover {
+      color: #6a3d63;
+      text-decoration:none;
+    }
+  }
+
+  h2 {
+    font-size:1.2em;
+    font-weight:lighter;
   }
 }
 
@@ -75,67 +107,39 @@ header {
   margin-bottom: 1em;
 }
 
-.purpleBox {
+.leistung_box {
   background-color:#6a3d63;
   color:white;
+
+  section {
+    margin-left:1em;
+    margin-top:1em;
+  }
 }
 
-.greenBg {
-  background-color:#bdd3c0;
-}
 
-.greenBox {
-  background-color:#bdd3c0;
-  height:20em;
-  margin-bottom:1em;
-}
-
-.margin_top_two {
-  margin-top:2em;
-}
-
-.leistung_pading {
-  padding-left:4.3%;
-}
 .lines_img {
-  max-width:100%;
-  height:100%;
+  background-color:#bdd3c0;
+  width:100%;
+  height:90%;
 }
 
 .remove_right_pading {
   padding-right:0px;
 }
 
+.leistung_page{
+  background-color:#bdd3c0;
 
-#title {
-
-    margin-bottom:-0.5em;
-    font-size:27px;
-    
-    a {
-      color: inherit;
-      text-decoration:none;
-    }
-
-    a:hover {
-      color: inherit;
-      text-decoration:none;
-    }
+  h2 {
+    margin-top:0;
+    padding-top:0.4em;
   }
 
-  .subtitle {
-    font-size:16.9px;
-  }
-
-#leistungen_liste {
   li {
     font-size:16.9px;
     margin-bottom:9px;
     margin-top:18px;
     font-weight:lighter;
   }
-}
-
-#leistungen_titel {
-  padding-top:0.5em;
 }

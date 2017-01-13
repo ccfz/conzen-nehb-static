@@ -4,8 +4,8 @@ title: Über mich
 permalink: /ueber_mich
 ---
 <div>
-  <section class="row">
-    <div class="col-sm-7 col-xs-12">
+  <section class="row ueber_mich_page">
+    <div class="col-sm-6 col-xs-12">
       <div class="text-uppercase">
         <h1>
           Franziska 
@@ -14,9 +14,6 @@ permalink: /ueber_mich
         </h1>
       </div>
       <h2 class="h2_subtitle">Krankengymnastin</h2>     
-    <div > 
-      <div class="visible-xs greenBox"></div>
-    </div> 
       <article>
         <p>
           1983 bis 1987 Ausbildung zur Physiotherapeutin und Gymnastiklehrerin an der Medau Schule in Coburg. 1998 selbständig in eigener Praxis.
@@ -26,10 +23,13 @@ permalink: /ueber_mich
         </p>
       </article>
     </div>
-    <div class="col-sm-5 hidden-xs" > 
-      <div class="greenBox"></div>
+    <div class="col-sm-6 hidden-xs" > 
+      <img class="pull-right lines_img" src="{{ site.baseurl }}/assets/images/profile_img.jpeg"/>
     </div> 
   </section>
+  <div class="visible-xs">
+      <img class="pull-right lines_img" src="{{ site.baseurl }}/assets/images/profile_img.jpeg"/>
+  </div>
   <div class="line"></div>
   <div>  {% include leistungs_box.html %} </div>
 </div>
